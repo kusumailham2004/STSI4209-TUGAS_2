@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SITTA UT - Sistem Pemesanan Bahan Ajar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="brand">
+      <img src="img/logo_ut.png" alt="Logo Universitas Terbuka" class="brand-logo">
+      <span class="brand-divider">|</span>
+      <span>SITTA Bahan Ajar</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Beranda</a></li>
+      <li><a href="stok.html">Stok Bahan Ajar</a></li>
+      <li><a href="tracking.html">Tracking DO</a></li>
+    </ul>
+  </header>
+
+  <!-- Konten Utama -->
+  <main class="container">
+    <div class="card" style="text-align: center; padding: 3rem 1.5rem;">
+      <h1 style="color: var(--ut-blue); margin-bottom: 0.5rem;">Aplikasi Pengelolaan & Distribusi Bahan Ajar</h1>
+      <p style="color: #64748b; max-width: 650px; margin: 0 auto 2rem auto;">
+        Sistem Informasi Tiras dan Transaksi Bahan Ajar (SITTA) Universitas Terbuka memfasilitasi monitoring persediaan bahan ajar dan pelacakan status pengiriman secara terpusat.
+      </p>
+
+      <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+        <!-- Card Navigasi Stok -->
+        <div class="card" style="flex: 1 1 300px; max-width: 380px; text-align: left; border-top: 4px solid var(--ut-blue);">
+          <h3 style="color: var(--ut-blue); margin-bottom: 0.5rem;">📦 Stok Bahan Ajar</h3>
+          <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 1.5rem;">
+            Pantau stok bahan ajar di seluruh UT-Daerah, filter data bertingkat, monitoring stok kritis (safety stock), serta manajemen katalog buku.
+          </p>
+          <a href="stok.html" class="btn btn-primary" style="width: 100%; text-align: center;">Buka Modul Stok &rarr;</a>
+        </div>
+
+        <!-- Card Navigasi Tracking -->
+        <div class="card" style="flex: 1 1 300px; max-width: 380px; text-align: left; border-top: 4px solid var(--ut-yellow);">
+          <h3 style="color: var(--ut-blue); margin-bottom: 0.5rem;">🚚 Tracking Delivery Order (DO)</h3>
+          <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 1.5rem;">
+            Lacak riwayat ekspedisi DO mahasiswa secara real-time dan buat Delivery Order baru dengan penomoran otomatis serta rincian paket bahan ajar.
+          </p>
+          <a href="tracking.html" class="btn btn-warning" style="width: 100%; text-align: center;">Buka Modul Tracking &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
